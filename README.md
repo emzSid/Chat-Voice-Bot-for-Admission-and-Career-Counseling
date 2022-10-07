@@ -35,7 +35,7 @@ The Dataset for the ANN Model (intents.json) is a manually extended JSON file wi
 .<br>
 “response_n”]}<br>
 
-### File Description: 
+### File Description 
 - **Folder: static** <br>
     - **images** <br>
     Contains all used images and icons as well as some black and white versions of     them <br>
