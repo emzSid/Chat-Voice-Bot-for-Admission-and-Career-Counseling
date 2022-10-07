@@ -8,10 +8,10 @@
 5. How to run the Code on a Development Server 
 
 
-### Background:
+### Background
 It can be very frustrating and time consuming to scan a university's website to find the exact answer one is looking for. An intelligent virtual assistant there though, is able to give specific, personalized and immediate responses to any time of the day or night. Hence, if the university has a Chatbot, an efficient and friendly conversation with that assistant can be a crucial parameter to decide to take admission at that place. As internship, at Integral University Lucknow, I I was given the project of developing an innovative Chat-Voice Bot for Admission and Career Counseling for their institution. 
 
-### Technical Overview:
+### Technical Overview
 The Chatbot is a both Artificial Intelligence and rule-based virtual assistant which uses NLP (Natural Language Processing) for preprocessing the natural language user-input. The responses are either predefined, giving a detected  keyword in the query, or selected based on the AI’s decision using an Artificial Neuronal Network. Hereby, we use HTML, CSS and JavaScript as frontend and the python framework PyTorch, Flask and NLTK (Natural Language Toolkit) library as backend. <br>
 
 ### Dataset
@@ -92,7 +92,7 @@ In addition it has a Dropout of 50% after the first hidden layer<br>
 ``` 
 pip install -r requirements.txt 
 ```
-3. In case there is no trained ANN, run the train.py file
+(3. In case there is no trained ANN, run the train.py file)
 4. Run app.py
 5. Follow the given url (http://127.0.0.1:5000)
 6. Click on the Chatbot icon and start the conversation with writing a greeting 
