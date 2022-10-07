@@ -1,0 +1,569 @@
+{
+  "intents": [
+
+    {
+      "tag": "Greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Help me please",
+        "I need help",
+        "Good day", 
+        "Good morning", 
+        "Good evening", 
+        "Good afternoon", 
+        "I have a question"
+      ],
+      "responses": [
+        "<b>Hey, thanks for visiting!</b> <br><br> I'm here to help you with questions regarding admission, Integral, career counseling and more. <br> How can I help? ",
+        "<b> Hello, I'm glad you're here.</b> <br><br> I'm an assistant for questions regarding admission, Integral, program choice and more. <br> Tell me, what do you want to know? ",
+        "<b>Hi there!</b> <br><br> I'm here to answer you questions regarding admission, Integral, your course choice and more. <br> Don't hesitate to ask. I'm happy to help. "
+      ]
+    },
+
+    {
+      "tag": "After",
+      "patterns": ["Bye","See you later","Good bye","Nice to talk to you","See you", "Nothing", "No, I'm fine", "no I don't think so", "no", "nope"],
+      "responses": [
+        "See you on the campus, hopefully. Thanks for visiting",
+        "Bye then, have a nice day, Thanks for visiting",
+        "Bye then! I hope we'll see you soon on the campus."
+      ]
+    },
+    {
+      "tag": "Thanks",
+      "patterns": ["Thanks", "Thank you", "nice", "Thats helpful", "Thanks a lot!", "Great", "Thank you so much", "Ok","Okay" ,"Good to know"],
+      "responses": ["Happy to help! <br> Is there something else I can help you with?", "Any time! <br> Tell me if I can answer you another question.", "I'm glad I could help! <br> What else do you want to know?"]
+    },
+        {
+      "tag": "Programs",
+      "patterns": [
+        "What are your postgraduate offers?",
+        "Give me the entire list of PG programs ",
+        "What are your Masters courses that can I do at Integral?", 
+        "Give me an overview of all Master courses", 
+        "I am searching for a Master's degree",
+        "I just finished my Bachelor degree",  
+        "pg courses", 
+        "ug courses",
+        "Give me a list of all courses Integral offers for bachelor graduates wanting to proceed with a master's degree",
+        "What are all the undergraduate courses that you offer?",
+        "Give me the entire list of UG programs ",
+        "What Bachelor degree can I do at Integral?", 
+        "Give me an overview of all Bachelor courses", 
+        "I am searching for a Bachelors degree",
+        "I just finished highschool. What options are available?", 
+        "Give me a list of all bachelors offered by Integral",
+        "Give me all pg courses",
+        "undergraduate programs", 
+        "ug programs",
+        "Which type of study paths are offered by your university?",
+        "What kind of courses of studies are provided by you?",
+        "What are the degree programs offered by the IU?",
+        "What programs do you have?",
+        "Which subjects can I study at Integral University?",
+        "I want to study at Integral University, but don't know what", 
+        "Give me a list of all courses that Integral University has", 
+        "Tell me about the faculties", 
+        "All programs of study at Integral", 
+        "Entire course offering", 
+        "Give me an overview of all degrees Integral is offering", 
+        "What kind of subjects can I study here?",
+        "All study options"
+      ],
+      "responses": [
+        "We offer many different programs from pharmacy, chemistry, design, management and engineering to computer science and many more. <br><br> <button class = 'link__button'  type = 'button'> <a href='https://iul.ac.in/AdmissionInfo/FeeInd.aspx'>Programs</a></button> <br><br> You're still unsure which program does suit you? Describe your abilities and interests and maybe I can help.",
+        "For a variety of streams, Integral University is a great place to study. <br><br> <button class = 'link__button'  type = 'button'><a href='https://iul.ac.in/admissioninfo/FeeInd.aspx'>Programs</a></button>  <br><br> Still undecided which program suits you best? Describe your abilities and interests and maybe I can help. ",
+        "Integral University is an excellent choice for your Bachelor's or Master's degree. We offer programs in many streams.<br><br><button class = 'link__button'  type = 'button'><a href = 'https://iul.ac.in/AdmissionInfo/FeeInd.aspx'> Programs</a></button><br><br>  Still in the discovery phase? Describe your abilities and interests and maybe I can help."
+      ]
+    }, 
+
+    {
+      "tag": "Interest Architecture and Design",
+      "patterns": [
+        "I always liked to draw and communicate with people. Are there any art related programs at your University?",
+        "In school I liked physics and arts. Do you have a corresponding course for me?", 
+        "I'm good in analytical tasks and I pay attention to detail", 
+        "I'm interested in designing and constructing buildings",
+        "I want to study soemthing where I can use my creativity to shape my environment.",
+        "I would like to do something with sketching and am curious about technical plans", 
+        "In school I liked arts and I pay attention to detail", 
+        "I'm interested in designing things",
+        "I would like to do something with sketching and am curious about design softwares", 
+        "I'm good in planning and like to do handicraft",
+        "I care about aesthetics and my environment",
+        "I like sketching and am a visual learner.",
+        "I want to construct houses and buildings to improve well being in our surrounding"
+      ],
+      "responses": [
+        "Sounds like our Faculty of Architecture, Planning and Design could suit you. <br><br> <button class = 'link__button'  type = 'button'><a href = 'https://iul.ac.in/AdmissionInfo/FeeInd.aspx'>Programs</a></button> <br> <br> What else do you need information about?"
+      ]
+    },
+
+    {
+      "tag": "Interest Commerce and Management",
+      "patterns": [
+        "Give me an overview of the postgraduate programs related to financial trafficking and bargaining", 
+        "What Masters does Integral offer in respect to trade, market and investment?",
+        "I want to do a job related to the market",
+        "I want to pursue a career path where I can use my good communication, problem solving and numeracy skills.",
+        "I always liked to calculate and like the idea of financial efficiency. Also I'm good in communicating with people. Are there any art related programs at your University?",
+        "In school I liked ethics, social sciences and economics ", 
+        "I am facinated about money, trade and am good in persuading others", 
+        "I like maths and like to do presentations on my achievements",
+        "I like to be the person in charge and like to plan every event in detail",
+        "One day I want to have my own company and be the boss",
+        "I'm a good listener and have good numerical and analytical abilities",
+        "I'm a leader, I have good communication skills and like critical thinking and problem solving",
+        "In my enterprise or firm I want to be the person making the decisions",
+        "budgeting, markets, customers, finance, operations, organisation policy and strategy"
+      ],
+      "responses": [
+        "Sounds like our Faculty of Commerce and Management has got something for you. <br><br>  <button class = 'link__button' type = 'button'><a href = 'https://iul.ac.in/AdmissionInfo/FeeInd.aspx'>Programs</a></button> <br> <br> Can I answer you anything else?"
+      ]
+    },
+
+    {
+      "tag": "Interest IT",
+      "patterns": [
+        "I want to become a Software Engineer or Data Scientist",
+        "Do you offer a course which teaches Artificial Intelligence?",
+        "I'm fascinated by robots, robotics and AI",
+        "I'm good in logical thinking and maths. Also I like computers",
+        "I'm good in problem solving and analyzing situations.",
+        "I love spending time in front of a laptop, gaming or designing a website",
+        "What can I study at IU if I like technology and Machine Learning?",
+        "I want to learn programming and implement my own apps", 
+        "I'm an inquisitive and curious person that also likes to spend time alone",
+        "In my projects I'm detail oriented and organized",
+        "I have analytical skill and am good in identifying a problem and coming up with a solution",
+        "AI, programming and hacking is cool",
+        "I like enigmas puzzles and mystery"
+      ],
+      "responses": [
+        "Sounds like the IT - sector is something for you. In this field, we have a variety of programs from standard courses like BCA to industry oriented courses in association with IBM. <br><br> <button class = 'link__button'  type = 'button'><a href = 'https://iul.ac.in/AdmissionInfo/FeeInd.aspx'>Standard Programs</a></button> <button class = 'link__button'  type = 'button'><a href = 'https://www.iul.ac.in/AdmissionInfo/Co_Branded_Programs.aspx#target'>Special Programs</a></button> <br> <br> How can I help you apart from that?"
+      ]
+    },
+
+    
+    {
+      "tag": "Interest Engineering",
+      "patterns": [
+        "What to study to work in the industry?",
+        "I find it fun to come up with product ideas and want to develop actual products",
+        "When I was younger I always wanted to become a innovator or inventor of practical devices",
+        "I want to know how radar, cars, motors, power generation equipment, broadcast systems, portable music, Air Conditioning and GPS work",
+        "I want to plan and contribute to construct our all surrounding infrastructure  and city",
+        "I have good problem solving abilities, I like teamwork, I like analyzing machines structuraly",
+        "I want to work in a team, do something practical and apply my knowledge on the field or construction site.",
+        "I want to gain technical knowledge and learn about mechanisms",
+        "I'm good in critical reasoning, leadership and am a creative and innovative person",
+        "Getting along with other people is easy for me, I like physics and maths and like constructing or building things"
+      ],
+      "responses": [
+        "I think Engineering can be something for you. <br><br> <button class = 'link__button' type = 'button'><a href = 'https://iul.ac.in/AdmissionInfo/FeeInd.aspx'>Programs</a></button>  <br> <br> Do you want to ask anything else? Tell me"
+      ]
+    },
+    {
+      "tag": "Campus facilities",
+      "patterns": [
+        "How do the rooms in the university hostel look like?",
+        "Am I going to have room partners?",
+        "Are the hostels clean and safe?",
+        "What are the hostel rooms like?",
+        "Where do students who don't live in Lucknow sleep or stay?",
+        "What is it like to live at Integral University?",
+        "Show me the boys and girls hostel", 
+
+        "How does the hostel mess look like?",
+        "Do the hostel facilities include good wifi or internet connection?", 
+        "How hostel rooms are allotted?", 
+        "How do you decide who gets a room in the hostel?", 
+        "What are the hostel buildings like?",
+        "How many students share one hostel room?",
+        "What facilities are in the hostels?",
+        "Information about the hostels",
+        "What are the chances to get a Hostel room?",
+        "Is there a laundry service for students living in the hostel?", 
+        "How do I wash my clothes at the campus?", 
+        "Are the rooms in the hostel with ac?",
+        "Is Air Conditioner in all Hostel rooms?",
+        "Are the hostel rooms all air conditioned?",
+        "Can I choose my roommate by myself?", 
+        "How does the University decide who shares a room with whom?",
+        "Can I share a room in the hostel with my friends?",
+
+        "Does the hostels have a mess?",
+        "What is the criteria to get a room in the hostel?",
+        "How does the campus looks like?",
+        "Show me around the campus",
+        "I want to visit the Campus to see how it looks like",
+        "Are the buildings clean and well equiped?",
+        "Show me the academic blocks and the library",
+        "Let me explore the campus by a virtual tour",
+        "I want to see the appearance of the agricultural farm and of the sports ground", 
+        "What are the labs and shops at Integral University like?", 
+        "Where do I find pictures or photos of the campus?", 
+        "Are the campus buildings big, green, well maintained and clean?", 
+        "Campus facilities and buildings", 
+        "How do the buildings look like? ", 
+        "Can you give me pics and photos of the campus facilities?", 
+        "Does IUL have something like a virtual tour?",
+        "Where do I find pictures and videos?",
+
+        "How do I get to Integral if I don't have my own scooter, bike and don't want to use Tuk Tuk or public service vehicle?",
+        "Do I need to use public transportation to go to the university?",
+        "I don't have a car, bike, scooter or bycicle. Can I be picked up by university staff?",
+        "Should I take public transportation for coming to classes?",
+        "Is there a university bus which brings students and staff to the campus?",
+        "How much costs the bus service?", 
+        "What if my home is in the center of Lucknow or far away from the campus?", 
+        "Can I be picked up by university staff to get to to Integral every morning?",
+        "Is there some transportation service for local students who live in Lucknow?",
+        "Does IUL provide its own bus service for students and staff members?"
+        
+      ],
+      "responses": [
+        "We do a lot of effort to maintain and renovate our good and green campus facilities. I think the following webpages will be helpful for you: <br><br> <button class = 'link__button' type = 'button'><a href='https://iul.ac.in/admissioninfo/Hostel_Facility.aspx#target'>Hostels</a></button> <button class = 'link__button'  type = 'button'><a href='https://iul.ac.in/AdmissionInfo/Transport_Facility.aspx#target'>Transportation Service</a></button> <button class = 'link__button' type = 'button'><a href=' https://iul.ac.in/AdmissionInfo/Vertual_Tour.aspx#target'>Virtual Campus Tour</a></button> <br><br> Tell me if there is something else you want information about."
+      ]
+    },
+    {
+    "tag": "Extraculicular activities",
+    "patterns": [
+      "extraculicular activities",
+      "Will I be able to do some sports at the campus?",
+      "What sports do integralites do?",
+      "I like sports, can I continue working out at Integral University?",
+      "I'm a huge fan of training. Does your University have any sports courses?",
+      "What does IUL offer to stay fit?", 
+      "What is your sports, athletics, tennis, volleyball and gymnastic offer?",
+      "Does IU has a gym?", 
+      "What to do on the campus after the classes ended?",
+      "Is it possible to have a hobby or several hobbies while studying?",
+      "What activities are offered for leasure time?",
+      "Can I continue playing football, basketball or cricket when I join Integral University?", 
+      "What are the sports activities that you can do at Integral?",
+      "Can I do sports if I live in the hostel?", 
+      "Does Integral has a college team?",
+      "What can I fo during spare time on the campus?", 
+      "Are there some sports activities going on in the evening?",
+      "Can I play lawn tennis, table tennis, billiard, chess or cricket at the campus?",
+      "Is it possible to play volleyball at the campus?",
+      "Can I practice the piano at Integral?",
+      "Do you have a choir or band?" ,
+      "Can I play the piano or guitar or any other instrument at IUL?",
+      "What are the socities you have?",
+      "Can I attend music classes at Integral University?"
+    ],
+    "responses": [
+      "As a student at Integral University you'll have access to our well-equiped university <b>gym</b>. Besides, every evening integralites get together at the sports ground to play <b>football</b>, <b>basketball</b>, <b>volleyball</b> and <b>cricket</b> respectively. You are very welcome to join! <br> Also we have a lawn <b>tennis</b> ground, <b>billiard</b>, a <b>robotics/drone</b> society, a <b>music</b> society, <b>chess</b>, <b>table tennis</b> and more. <br> <br> What else can I help you with?"
+    ]
+  },
+    {
+      "tag": "IUET",
+      "patterns": [
+        "In which programs does Integral University conduct the Entrance Test for admission?",
+        "Can I get a seat at Integral without passing the entrance test?",
+        "Do I need to pass an entrance exam to be eligible to apply for my course of study?",
+        "Is the exam to enroll in Integral University obligatory for me?", 
+        "Is my course of study a test program?", 
+        "Is there any entrance exam for me?", 
+        "Information about IUET",
+        "How do I now if I need to take IUET or not?", 
+        "Can IUET be replaced by a different entrance test conducted by the government or any other prominent university?", 
+        "Do I have to attend the Entrance Test?", 
+        "Am I applying for a course which requires IUET?", 
+        "Give me a list of the programs which require being successful in the Entrance exam",
+        "Is IUET always compulsory?",
+        "Who needs to do IUET?",
+        "Are other entrance tests other than IUET valid?", 
+        "Does everyone have to pass the entrance test?",
+        "Do I need to attend IUET if I passed a similar one from a different University already?",
+
+        "What is IUET?",
+        "What is meant by IUET?",
+        "How to apply for the National Entrance Test?",
+        "How many questions do I need to answer in the entrance exam?",
+        "What questions are asked at IUET?",
+        "What subjects are tested in IUET?",
+        "What does IUET stand for?", 
+        "How long is the IUET?", 
+        "How substantial or extensive is the entrance examination?",
+        "What is the duration of the examination that students have to take before admission?",
+        "When and where does the entrance test take place?",
+        "What type of questions are asked in the entrance exam?",
+        "Is the IUET a multiple choice exam?", 
+        "What subjects are required for my program in the Entrance Test?", 
+
+        "Where should I hand in my application form for IUET?", 
+        "Where to upload the application form for IUET?",
+        "Where do I get the application form for IUET?", 
+        "How to apply for IUET?",
+        "Application for IUET",
+        "How does applying for the Integral entrance exam work?",
+        "How often does the entrance exam is happening?", 
+        "Where can I get or obtain the application form for IUET?"
+      ],
+      "responses": [
+        "To enroll in Integral University, some applicants need to pass an entrance test, called IUET (can be replaced). <br> For non-test programs we prepare a course wise merit list. <br><br> <button class = 'link__button' type= 'button'><a href='https://www.iul.ac.in/iuet_syllabus.aspx#target'>IUET details</a></button> <br><br> Check here whether the path of study you're interested in requires the entrance test or not: <br><br> <button class = 'link__button' type='button'><a href='https://iul.ac.in/admissioninfo/Admission_Criteria.aspx#target'>IUET or no IUET?</a></button> <br> <br> Is there another question you want to ask? Tell me"
+      ]
+    },
+
+    {
+      "tag": "Minorities",
+      "patterns": [
+        "Am I favored or deprieved if I'm a Hindu or Muslim?",
+        "Application for international students",
+        "Does the university has researved seats for minorities like physically handicapped and students from abroad?",
+        "What is the percentage of girls and boys at the Integral University?",
+        "Is this a muslim University?",
+        "What are my chances if I'm a foreign student?",
+        "Is this University preferentially for muslims?", 
+        "Can I also apply as an international student?", 
+        "Do I have a chance to get a seat even if I am not an indian Hindu?", 
+        "How to apply as an international student?", 
+        "Do you have seats for minority people like foreigners?", 
+        "What are the percentages of different religions, ethnos and nationalities at IUL?", 
+        "How to take admission as foreigner?", 
+        "How international and diverse is Integral University?",
+        "What is the percentage of students from a foreign country?",
+        "How can I apply as international?",
+        "How to manage everything as international student?",
+        "What is the ethnic background of integralites?",
+        "Are there many Muslims on the campus?", 
+        "Admission for minority religions",
+        "Application for internationals or foreign students",
+        "Is Integral University international?",
+        "Are the rules the same for international students?",
+        "What to keep in mind as aspirant from a different country?",
+        "What is meant by being a global university?"
+      ],
+      "responses": [
+        "<button class = 'link__button' type='button'><a href='https://iul.ac.in/InternationalStudents.aspx'>Application as International Student</a></button> <br><br> Integral stands for <b>diversity</b> in personalities, religions and nationalities. <br> <br> Currently, 50% of the total seats are reserved for Muslim minorities. The other 50% though are open to everyone. Within these two categories we also reserve seats for girls, international students or physically handicapped. <br> <br> Tell me if there is something else you want to ask."
+      ]
+    },
+    {
+      "tag": "admission process",
+      "patterns": [
+        "How can I take admission in your university?",
+        "What are the steps to take admisison?",
+        "What is the admission process at Integral University?",
+        "How do I apply for a program?",
+        "How to apply?",
+        "Can I apply online?",
+        "Guide me in admission",
+        "Admission help please",
+        "What are the applicaiton steps?",
+        "How can I apply offline?",
+        "Where to find the application form?",
+        "What do I need to do to take admission?",
+        "Where do I get the application form from?", 
+        "Do I need to come to submit my application?", 
+      
+        "What supplementary documents are prerequisite for admission?", 
+        "Which papers are needed for admission?",
+        "List of all documents which need to be filled out for admission",
+        "What kind of documents do I need to submit for taking admission?",
+        "Help me by taking admission", 
+        "Admission process", 
+        "I need guidance for my application", 
+        "What records are required for admission?", 
+        "Where do I find a step by step instruction for admission?",
+
+        "Is a copy of my certificates enough?",
+        "Is handing in the original papers compulsory?",
+        "I don't have my results yet. What do I do?",
+        "My grades of the qualifying examination have not been declared by now", 
+        "Am I able to apply without an original version of my mark sheets?", 
+        "What if I do not have my results of the entrance test yet? Is admission still possible?", 
+        "Can I apply without knowing the outcome of the exam which should make me eligible for admission?",
+        "Original documents for admission", 
+        "Can I get provisional admission if I don't have my results yet?",
+        "Documents always have to be in the original version, right?", 
+        "Is there a case in which I get provisional admission?",
+
+        "How do I know if I got accepted?",
+        "Do applicants who are not selected messaged?",
+        "Where to check to see if I got a seat at Integral University?",
+        "Do I get an intimation when my application was successful?", 
+        "Do I get an email if I was selected?", 
+        "I didn't get an e-mail. Does that mean I was not accepted?", 
+        "How do I know if admission was successful?", 
+        "I still wait for any kind of acceptance confirmation", 
+        "Is it normal that I didn't hear form Integral University regarding my application?", 
+        "What if I still not have received any response for admission counceling?", 
+        "How to know if I was selected for admission counceling?", 
+        "What to do if I didn't get anything in response to my application?"
+      ],
+      "responses": [
+        "I'm happy to hear you're interested in the admission process. <br><br> <button class = 'link__button' type='button'><a href='https://admission.iul.ac.in/'>Apply now</a></button> <br> <button class = 'link__button'  type='button'><a href='https://iul.ac.in/AdmissionForm.aspx'>Application Form</a></button> <br> <button class = 'link__button'  type='button'><a href='https://www.iul.ac.in/AdmissionInfo/Admission_Overview.aspx#target'>Required Documents</a></button>  <br> <button class = 'link__button' type='button'><a href='https://iul.ac.in/AdmissionForm.aspx'>Step By Step Admission Guide</a></button> <br><br> Note that all documents have to be handed in in the <b>original version</b> and that exclusively applicants selected for admission counseling will receive an email."
+      ]
+    },
+
+    {
+      "tag": "Fees",
+      "patterns": [
+        "Tell me about the fees",
+        "How much do I need to pay?",
+        "How much is studying at Integral?",
+        "Give details about the fees for the undergraduate course", 
+        "Is it cheap or expensive to study this program?",  
+        "I need information about the amount of money I need to have to study here", 
+        "What is the expected charge or expense for one year in the program of my choice", 
+        "How much are the costs?",
+        "Tell me about the fee structure",
+        "How expensive is the ug course?", 
+        "What are the fees for the program I chose",
+        "What are the fees for the hostel?",
+        "Is it cheaper to share a room in the hostel?", 
+        "What factors do I need to keep in mind regarding the cost of living in the hostel?",
+        "How much does the hostel mess costs?",
+        "How much does it cost to live in the boys or girls hostel?",
+        "What are the hostel fees?",
+        "Are the fees for the hostel high?",
+        "What is included and excluded in the Hostel fee?",
+        "How much is a single Hostel room?",
+        "Is it expensive to have a room in the boys hostel?",
+        "Are there additional fees or costs and have to keep in mind if I want to live in the girls hostel?",
+        "Are the hostel mess costs included in the hostel fee?",
+        "Can I wash my clothes for free? ",
+        "How much does laundry cost at Integral?",
+        "How much more does a single rooms costs in comparison to a triple room?", 
+        "Is laundry service included in the hostel fee?",
+        "How much is a single occupancy room with or without AC?"
+      ],
+      "responses": [
+        "<button class = 'link__button' type='button'><a href='https://iul.ac.in/AdmissionInfo/FeeInd.aspx'>Course Fee Structure</a></button> <br> <button class = 'link__button' type='button'><a href='https://iul.ac.in/AdmissionInfo/Hostel_Facility.aspx#target'>Hostel-Related Fees</a></button> <br> <br> Click on the buttons to be transferred to the respective website about the fees. <br><br> There is something else? Don't hesitate to write a new query."
+      ]
+    },
+
+    {
+      "tag": "paying",
+      "patterns": [
+        "Does Integral University provide an education loan facility?",
+        "What is the education loan portal Vidya Lakshmi about?",
+        "Can I merit a loan?",
+        "To how many banks can I apply for my education loan?", 
+        "How many banks are offering loans?", 
+        "Is the university loan assistance operating under the Indian Banks Association (IBA) guidelines?", 
+        "Are there different types of loans?", 
+        "Can I adjust the loan to my convenience and needs?", 
+        "Do I need to apply for an education loan manually?", 
+        "Where can I register and apply for financial assistence?",
+
+        "What possibilities do I have to finance my studies?",
+        "How to finance my studies?",
+        "What options of financial assistance are there?",
+        "How can I get financial assistance for pursuing my higher education?",
+        "Where to get financial support?",
+
+        "How do I pay the fees?",
+        "Can I pay with Debit, Credit Card?",
+        "Do I need to pay the fees in cash?",
+        "Payment options",
+        "To which bank account should my parents transfer the fee payment?",
+        "I wanted to pay through Demand Draft, Pay Orders, but it didn't work. What other payment options do I have?",
+        "Is it eligible to transfer the money via NEFT, RTGS, IMPS mode?",
+        "To which bank should my parents send the money?", 
+        "Give me details about fee payment", 
+        "Can I pay the fee by GooglePay or a different mobile payment app?", 
+        "What are the payment options?",
+        "How to pay the fees?", 
+        "I need help with the payment of the money",
+
+        "What types of scholarships does Integral offer?",
+        "Are there any scholarships?",
+        "What are my chances for a scholarship?",
+        "What to do to get a scholarship?",
+        "Do only toppers get a scholarship?",
+        "I'm from north eastern india. Does that make me eligible for a scholarship?",
+        "Does my child or spouse get any fee discount if I'm a staff member at Integral?",
+        "My siblings and other family members are enrolled in a program at Integral University. Is there a reduction in my fee then?",
+        "Is it possible to merit a scholarship by having good grades?", 
+        "To what kind of schoolarships can I apply?", 
+        "Are excellent marks necessary or compulsory for getting a scholarship?",
+        "Is it a financial advantage if I continue studying at the Integral University from Bachelor to Master to PhD?",
+        "Are 80 % enough to receive a waiver in tuition fees?", 
+        "What are the criteria to get a waiver in tuition fees?",
+        "What scholarship options are there?",
+        "What scholarships are available?",
+        "Am I eligible for any scholarship?",
+        "What are the scholarships offered by Integral University?", 
+        "Give me general information about how to get a scholarship", 
+        "Is it possible to get a scholarship?"
+      ],
+      "responses": [
+        "I know, money is an important topic. Let me help. Here are helpful websites for you: <br><br> <button class = 'link__button' type = 'button'><a href='https://iul.ac.in/AdmissionInfo/Education_Loan_Assistance.aspx#target'>Loan </a></button> <button class = 'link__button'  type = 'button'><a href='https://iul.ac.in/AdmissionInfo/Integral_University_Scholarships_Schemes.aspx#target'>Scholarships</a></button> <br> <button class = 'link__button'  type = 'button'><a href='https://iul.ac.in/AdmissionInfo/Fee_Payment_Options.aspx#target'>Payment Options</a></button>  <br><br> How can I help you further?"
+      ]
+    },  
+    {
+      "tag": "Why IUL",
+      "patterns": [
+        "Why should I choose Integral University?",
+        "What makes Integral special?",
+        "What a reasons to decide for Integral University?",
+        "Tell me arguments for IUL",
+        "What does your university offer what others don't?", 
+        "Why do people or students choose to study at IU?", 
+        "Why should I consider enrolling in a program at Integral University?", 
+        "Why IUL?", 
+        "Tell me arguments why to choose Integral", 
+        "What has Integral University that others don't have?",
+        "Why students in the past decided to go to IUL?",
+        "Why should I take admission at IU and not elsewhere?",
+        "Why taking admission here?",
+
+        "What is life in Lucknow like?",
+        "What does Lakhnau has to offer?",
+        "What is Lucknow known for?",
+        "What can I expect from Lucknow and surrounding?", 
+        "Is Lucknow a nice and attractive place to live?", 
+        "Tell me something about the Capital of Uttar Pradesh, the city of Nawabs, the city of Tehzeeb", 
+        "Is Lucknow a happy and tourist attractive city?", 
+        "Is Lucknow a well developed, smart and modern town?", 
+        "What should I know about living in Lucknow?",
+        "What is the locality of Lucknow famous for?", 
+        "Give me general information about Lucknow", 
+        "Is Lakhnau a happy and well developed city?", 
+        "Is Lucknow an interesting location to live?"
+      ],
+      "responses": [
+        "There are so many good reasons to choose Lucknow and Integral University. Let me introduce you to some of them: <br><br> <button class = 'link__button'  type= 'button'><a href='https://iul.ac.in/About/Overview/Overview.aspx'>About Integral</a></button>  <button class = 'link__button'  type='button'><a href='https://iul.ac.in/admissioninfo/About_Lucknow.aspx#target'>About Lucknow</a></button><br> <br> What else can I help you with?"
+      ]
+    },       
+    {
+      "tag": "About Chatbot",
+      "patterns": [
+        "Tell me your name",
+        "What is your name?",
+        "Who are you?",
+        "What are you?", 
+        "You are not a human right?", 
+        "What is a Chatbot?",
+        "Explain what a chatbot is", 
+        "Why does this virtual assistant exist?", 
+        "What kind of questions can I ask you?", 
+        "For what are you useful?", 
+        "Am I talking to an actual person?", 
+        "What is this chat?",
+        "What questions are you able to answer?",
+        "Why do you exist?",
+        "What is this?",
+        "What kind of questions can I ask?"
+      ],
+      "responses": [
+        "My name is not yet defined. I'm a Chat-Voice-Bot. Using Artificial Intelligence I try to assist you with Integral related questions as best as I can :)"
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+        
